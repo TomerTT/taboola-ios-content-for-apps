@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,12 @@
 		72044AE424289D9200426737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72044AE224289D9200426737 /* Main.storyboard */; };
 		72044AE624289D9300426737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72044AE524289D9300426737 /* Assets.xcassets */; };
 		72044AE924289D9300426737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72044AE724289D9300426737 /* LaunchScreen.storyboard */; };
+		72044AF624289F8700426737 /* STDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044AF524289F8700426737 /* STDViewController.swift */; };
+		72044AF82428A55600426737 /* JSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044AF72428A55600426737 /* JSViewController.swift */; };
+		72044AFA2428A56900426737 /* WebTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044AF92428A56900426737 /* WebTabViewController.swift */; };
+		72044AFC2428A59400426737 /* WebVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044AFB2428A59400426737 /* WebVViewController.swift */; };
+		72044AFE2428A64E00426737 /* TaboolaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044AFD2428A64E00426737 /* TaboolaCollectionViewCell.swift */; };
+		72044AFF2428A77100426737 /* Pods_TaboolaContentForApps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2C18480E0E249501158B01 /* Pods_TaboolaContentForApps.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,14 @@
 		72044AE524289D9300426737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72044AE824289D9300426737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72044AEA24289D9300426737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72044AF524289F8700426737 /* STDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STDViewController.swift; sourceTree = "<group>"; };
+		72044AF72428A55600426737 /* JSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSViewController.swift; sourceTree = "<group>"; };
+		72044AF92428A56900426737 /* WebTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebTabViewController.swift; sourceTree = "<group>"; };
+		72044AFB2428A59400426737 /* WebVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVViewController.swift; sourceTree = "<group>"; };
+		72044AFD2428A64E00426737 /* TaboolaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaboolaCollectionViewCell.swift; sourceTree = "<group>"; };
+		8D2C18480E0E249501158B01 /* Pods_TaboolaContentForApps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaboolaContentForApps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92957E3A49F47AE481F7A570 /* Pods-TaboolaContentForApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaboolaContentForApps.debug.xcconfig"; path = "Target Support Files/Pods-TaboolaContentForApps/Pods-TaboolaContentForApps.debug.xcconfig"; sourceTree = "<group>"; };
+		FC1C0B1B9EC45A42E681E183 /* Pods-TaboolaContentForApps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaboolaContentForApps.release.xcconfig"; path = "Target Support Files/Pods-TaboolaContentForApps/Pods-TaboolaContentForApps.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72044AFF2428A77100426737 /* Pods_TaboolaContentForApps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				72044ADB24289D9200426737 /* TaboolaContentForApps */,
 				72044ADA24289D9200426737 /* Products */,
+				CB59492A9234B4B73CF68A6A /* Pods */,
+				C5A735B9206264DE93973BE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +73,10 @@
 		72044ADB24289D9200426737 /* TaboolaContentForApps */ = {
 			isa = PBXGroup;
 			children = (
+				72044AF024289DB300426737 /* SDK STD */,
+				72044AF224289DC400426737 /* SDK JS */,
+				72044AF324289DD400426737 /* Web Tab */,
+				72044AF424289DEC00426737 /* Web View */,
 				72044ADC24289D9200426737 /* AppDelegate.swift */,
 				72044ADE24289D9200426737 /* SceneDelegate.swift */,
 				72044AE024289D9200426737 /* ViewController.swift */,
@@ -67,6 +88,56 @@
 			path = TaboolaContentForApps;
 			sourceTree = "<group>";
 		};
+		72044AF024289DB300426737 /* SDK STD */ = {
+			isa = PBXGroup;
+			children = (
+				72044AF524289F8700426737 /* STDViewController.swift */,
+				72044AFD2428A64E00426737 /* TaboolaCollectionViewCell.swift */,
+			);
+			path = "SDK STD";
+			sourceTree = "<group>";
+		};
+		72044AF224289DC400426737 /* SDK JS */ = {
+			isa = PBXGroup;
+			children = (
+				72044AF72428A55600426737 /* JSViewController.swift */,
+			);
+			path = "SDK JS";
+			sourceTree = "<group>";
+		};
+		72044AF324289DD400426737 /* Web Tab */ = {
+			isa = PBXGroup;
+			children = (
+				72044AF92428A56900426737 /* WebTabViewController.swift */,
+			);
+			path = "Web Tab";
+			sourceTree = "<group>";
+		};
+		72044AF424289DEC00426737 /* Web View */ = {
+			isa = PBXGroup;
+			children = (
+				72044AFB2428A59400426737 /* WebVViewController.swift */,
+			);
+			path = "Web View";
+			sourceTree = "<group>";
+		};
+		C5A735B9206264DE93973BE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D2C18480E0E249501158B01 /* Pods_TaboolaContentForApps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB59492A9234B4B73CF68A6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92957E3A49F47AE481F7A570 /* Pods-TaboolaContentForApps.debug.xcconfig */,
+				FC1C0B1B9EC45A42E681E183 /* Pods-TaboolaContentForApps.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72044AED24289D9300426737 /* Build configuration list for PBXNativeTarget "TaboolaContentForApps" */;
 			buildPhases = (
+				392D5449D02D5DC1598B4F16 /* [CP] Check Pods Manifest.lock */,
 				72044AD524289D9200426737 /* Sources */,
 				72044AD624289D9200426737 /* Frameworks */,
 				72044AD724289D9200426737 /* Resources */,
+				A8B5627F5414A35BE1D268A4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +206,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		392D5449D02D5DC1598B4F16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaboolaContentForApps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8B5627F5414A35BE1D268A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaboolaContentForApps/Pods-TaboolaContentForApps-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaboolaContentForApps/Pods-TaboolaContentForApps-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaboolaContentForApps/Pods-TaboolaContentForApps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		72044AD524289D9200426737 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72044AF624289F8700426737 /* STDViewController.swift in Sources */,
+				72044AF82428A55600426737 /* JSViewController.swift in Sources */,
 				72044AE124289D9200426737 /* ViewController.swift in Sources */,
+				72044AFE2428A64E00426737 /* TaboolaCollectionViewCell.swift in Sources */,
+				72044AFA2428A56900426737 /* WebTabViewController.swift in Sources */,
 				72044ADD24289D9200426737 /* AppDelegate.swift in Sources */,
 				72044ADF24289D9200426737 /* SceneDelegate.swift in Sources */,
+				72044AFC2428A59400426737 /* WebVViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +402,7 @@
 		};
 		72044AEE24289D9300426737 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92957E3A49F47AE481F7A570 /* Pods-TaboolaContentForApps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +421,7 @@
 		};
 		72044AEF24289D9300426737 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC1C0B1B9EC45A42E681E183 /* Pods-TaboolaContentForApps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

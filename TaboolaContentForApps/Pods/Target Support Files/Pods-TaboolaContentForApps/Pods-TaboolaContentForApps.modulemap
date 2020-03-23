@@ -1,0 +1,6 @@
+framework module Pods_TaboolaContentForApps {
+  umbrella header "Pods-TaboolaContentForApps-umbrella.h"
+
+  export *
+  module * { export * }
+}
