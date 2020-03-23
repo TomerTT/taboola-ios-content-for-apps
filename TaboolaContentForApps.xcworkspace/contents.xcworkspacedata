@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:TaboolaContentForApps/TaboolaContentForApps.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:../ios-sdk-examples-swift-v3/TaboolaContentForApps/TaboolaContentForApps.xcodeproj">
    </FileRef>
 </Workspace>
