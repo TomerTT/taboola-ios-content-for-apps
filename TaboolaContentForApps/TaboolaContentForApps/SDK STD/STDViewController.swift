@@ -26,31 +26,33 @@ class STDViewController: UIViewController{
     
     override func viewDidLoad() {
         
-        let taboolaWidget = TaboolaView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 200))
-        taboolaWidget.delegate = self
-        taboolaWidget.mode = "alternating-widget-without-video-1x4"
-        taboolaWidget.publisher = "sdk-tester-demo"
-        taboolaWidget.pageType = "article"
-        taboolaWidget.pageUrl = "http://www.example.com"
-        taboolaWidget.placement = "Below Article"
-        taboolaWidget.targetType = "mix"
-        taboolaWidget.setInterceptScroll(false)
-        taboolaWidget.logLevel = .debug
-        taboolaWidget.setOptionalModeCommands(["useOnlineTemplate": true])
-        taboolaWidget.viewID = viewId
+        let taboolaWidgetCreated = TaboolaView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 200))
+        taboolaWidgetCreated.delegate = self
+        taboolaWidgetCreated.mode = "alternating-widget-without-video-1x4"
+        taboolaWidgetCreated.publisher = "sdk-tester-demo"
+        taboolaWidgetCreated.pageType = "article"
+        taboolaWidgetCreated.pageUrl = "http://www.example.com"
+        taboolaWidgetCreated.placement = "Below Article"
+        taboolaWidgetCreated.targetType = "mix"
+        taboolaWidgetCreated.setInterceptScroll(false)
+        taboolaWidgetCreated.logLevel = .debug
+        taboolaWidgetCreated.setOptionalModeCommands(["useOnlineTemplate": true])
+        taboolaWidgetCreated.viewID = viewId
+        taboolaWidget = taboolaWidgetCreated
         
-        let taboolaFeed = TaboolaView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 200))
-        taboolaWidget.delegate = self
-        taboolaWidget.mode = "thumbs-feed-01"
-        taboolaWidget.publisher = "sdk-tester-demo"
-        taboolaWidget.pageType = "article"
-        taboolaWidget.pageUrl = "http://www.example.com"
-        taboolaWidget.placement = "Feed without video"
-        taboolaWidget.targetType = "mix"
-        taboolaWidget.setInterceptScroll(true)
-        taboolaWidget.logLevel = .debug
-        taboolaWidget.setOptionalModeCommands(["useOnlineTemplate": true])
-        taboolaWidget.viewID = viewId
+        let taboolaFeedCreated = TaboolaView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 200))
+        taboolaFeedCreated.delegate = self
+        taboolaFeedCreated.mode = "thumbs-feed-01"
+        taboolaFeedCreated.publisher = "sdk-tester-demo"
+        taboolaFeedCreated.pageType = "article"
+        taboolaFeedCreated.pageUrl = "http://www.example.com"
+        taboolaFeedCreated.placement = "Feed without video"
+        taboolaFeedCreated.targetType = "mix"
+        taboolaFeedCreated.setInterceptScroll(true)
+        taboolaFeedCreated.logLevel = .debug
+        taboolaFeedCreated.setOptionalModeCommands(["useOnlineTemplate": true])
+        taboolaFeedCreated.viewID = viewId
+        taboolaFeed = taboolaFeedCreated
         
         taboolaWidget.fetchContent()
     }
@@ -100,7 +102,6 @@ extension STDViewController: UICollectionViewDataSource, UICollectionViewDelegat
             return CGSize(width: view.frame.size.width, height: 200)
         }
     }
-        
 }
 
 func random() -> UIColor {
@@ -124,7 +125,7 @@ extension STDViewController: TaboolaViewDelegate {
     }
     
     func taboolaView(_ taboolaView: UIView!, didFailToLoadPlacementNamed placementName: String!, withErrorMessage error: String!) {
-        print("Did fail: \(placementName) error: \(error)")
+        print("Did fail: \(String(describing: placementName)) error: \(String(describing: error))")
     }
     
     func onItemClick(_ placementName: String!, withItemId itemId: String!, withClickUrl clickUrl: String!, isOrganic organic: Bool) -> Bool {

@@ -18,7 +18,6 @@
 		72044AFA2428A56900426737 /* WebTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044AF92428A56900426737 /* WebTabViewController.swift */; };
 		72044AFC2428A59400426737 /* WebVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044AFB2428A59400426737 /* WebVViewController.swift */; };
 		72044AFE2428A64E00426737 /* TaboolaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044AFD2428A64E00426737 /* TaboolaCollectionViewCell.swift */; };
-		72044AFF2428A77100426737 /* Pods_TaboolaContentForApps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2C18480E0E249501158B01 /* Pods_TaboolaContentForApps.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72044AFF2428A77100426737 /* Pods_TaboolaContentForApps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

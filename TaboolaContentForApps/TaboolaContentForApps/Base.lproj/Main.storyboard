@@ -62,21 +62,72 @@
             </objects>
             <point key="canvasLocation" x="758" y="115"/>
         </scene>
-        <!--View Controller-->
+        <!--STDViewController-->
         <scene sceneID="1CD-GW-CuG">
             <objects>
-                <viewController id="GJU-sn-fkG" sceneMemberID="viewController">
+                <viewController id="GJU-sn-fkG" userLabel="STDViewController" customClass="STDViewController" customModule="TaboolaContentForApps" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aDf-Ex-7wk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Equ-l2-xZJ">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="d0c-9e-tlW">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="randomCell" id="4qo-mV-SY1">
+                                        <rect key="frame" x="0.0" y="89" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="TaboolaCell" id="dU7-Xb-Jc4" customClass="TaboolaCollectionViewCell" customModule="TaboolaContentForApps" customModuleProvider="target">
+                                        <rect key="frame" x="60" y="0.0" width="263" height="228"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="263" height="228"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AqH-JY-vmB">
+                                                    <rect key="frame" x="0.0" y="0.0" width="263" height="228"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </view>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="AqH-JY-vmB" firstAttribute="leading" secondItem="dU7-Xb-Jc4" secondAttribute="leading" id="Bgv-DR-9FC"/>
+                                            <constraint firstItem="AqH-JY-vmB" firstAttribute="top" secondItem="dU7-Xb-Jc4" secondAttribute="top" id="Dua-uG-M0y"/>
+                                            <constraint firstAttribute="trailing" secondItem="AqH-JY-vmB" secondAttribute="trailing" id="M0D-uw-QKb"/>
+                                            <constraint firstAttribute="bottom" secondItem="AqH-JY-vmB" secondAttribute="bottom" id="eTt-Rw-E2E"/>
+                                        </constraints>
+                                        <size key="customSize" width="263" height="228"/>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="GJU-sn-fkG" id="JOo-Vd-gFk"/>
+                                    <outlet property="delegate" destination="GJU-sn-fkG" id="mTq-Xd-rLY"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6SL-J8-8bj"/>
                     </view>
                     <navigationItem key="navigationItem" id="8i6-on-B6K"/>
+                    <connections>
+                        <outlet property="collectionView" destination="Equ-l2-xZJ" id="6QV-4g-sdh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VYY-iC-u1L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1683" y="-831"/>
+            <point key="canvasLocation" x="1682.608695652174" y="-831.02678571428567"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Bqd-4f-9mf">
@@ -96,10 +147,10 @@
             </objects>
             <point key="canvasLocation" x="-67" y="115"/>
         </scene>
-        <!--View Controller-->
+        <!--JSViewController-->
         <scene sceneID="Q3Z-AC-Iuw">
             <objects>
-                <viewController id="SpB-HN-A9k" sceneMemberID="viewController">
+                <viewController id="SpB-HN-A9k" userLabel="JSViewController" customClass="JSViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="44K-Ss-Akq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -112,10 +163,10 @@
             </objects>
             <point key="canvasLocation" x="1683" y="-180"/>
         </scene>
-        <!--View Controller-->
+        <!--WebTabViewController-->
         <scene sceneID="OVF-ib-26P">
             <objects>
-                <viewController id="Npl-F6-nN6" sceneMemberID="viewController">
+                <viewController id="Npl-F6-nN6" userLabel="WebTabViewController" customClass="WebTabViewController" customModule="TaboolaContentForApps" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RB3-Qj-8hF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -128,10 +179,10 @@
             </objects>
             <point key="canvasLocation" x="1684" y="469"/>
         </scene>
-        <!--WebV View Controller-->
+        <!--WebVViewController-->
         <scene sceneID="09a-RT-L1P">
             <objects>
-                <viewController id="l7R-fu-cBg" customClass="WebVViewController" sceneMemberID="viewController">
+                <viewController id="l7R-fu-cBg" userLabel="WebVViewController" customClass="WebVViewController" customModule="TaboolaContentForApps" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gNH-is-7GJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
