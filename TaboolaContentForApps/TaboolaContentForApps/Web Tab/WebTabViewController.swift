@@ -11,7 +11,7 @@
 import UIKit
 import WebKit
 
-class WebTBLViewController: UIViewController, WKNavigationDelegate{
+class WebTabViewController: UIViewController, WKNavigationDelegate{
     
     
     override func viewDidLoad() {
