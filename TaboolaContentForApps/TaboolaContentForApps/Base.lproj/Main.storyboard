@@ -15,45 +15,73 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="Ue2-n1-gUg">
-                                <rect key="frame" x="173" y="363" width="68" height="170"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mds-p2-HHF">
-                                        <rect key="frame" x="0.0" y="0.0" width="68" height="30"/>
-                                        <state key="normal" title="SDK STD"/>
-                                        <connections>
-                                            <segue destination="GJU-sn-fkG" kind="show" id="8l9-5W-inL"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G7h-gS-HXD">
-                                        <rect key="frame" x="0.0" y="70" width="68" height="30"/>
-                                        <state key="normal" title="SDK JS"/>
-                                        <connections>
-                                            <segue destination="SpB-HN-A9k" kind="show" id="peA-Ux-XHC"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B2a-C1-3b4">
-                                        <rect key="frame" x="0.0" y="140" width="68" height="30"/>
-                                        <state key="normal" title="Web View"/>
-                                        <connections>
-                                            <segue destination="l7R-fu-cBg" kind="show" id="IXj-Gh-isn"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="taboola_bg" translatesAutoresizingMaskIntoConstraints="NO" id="qkf-sO-iM5">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mds-p2-HHF">
+                                <rect key="frame" x="122" y="390" width="171" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.084904335440000006" green="0.29671934249999998" blue="0.57257765530000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <state key="normal" title="SDK STD">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.makeBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="GJU-sn-fkG" kind="show" id="8l9-5W-inL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B2a-C1-3b4">
+                                <rect key="frame" x="122" y="645" width="171" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.084904335440000006" green="0.29671934249999998" blue="0.57257765530000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <state key="normal" title="Web View">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.makeBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="l7R-fu-cBg" kind="show" id="IXj-Gh-isn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G7h-gS-HXD">
+                                <rect key="frame" x="122" y="520" width="171" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.084904335440000006" green="0.29671934249999998" blue="0.57257765530000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <state key="normal" title="SDK JS">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.makeBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="SpB-HN-A9k" kind="show" id="peA-Ux-XHC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="Ue2-n1-gUg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3Kq-AF-5sL"/>
-                            <constraint firstItem="Ue2-n1-gUg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="S01-i4-SGl"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="E48-T4-hHa"/>
+                    <navigationItem key="navigationItem" id="isL-W5-nsr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="758" y="115"/>
+            <point key="canvasLocation" x="757.97101449275374" y="114.50892857142857"/>
         </scene>
         <!--STDViewController-->
         <scene sceneID="1CD-GW-CuG">
@@ -63,9 +91,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Equ-l2-xZJ">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Equ-l2-xZJ">
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="d0c-9e-tlW">
                                     <size key="itemSize" width="50" height="50"/>
@@ -96,10 +123,10 @@
                                             </subviews>
                                         </view>
                                         <constraints>
-                                            <constraint firstItem="AqH-JY-vmB" firstAttribute="leading" secondItem="dU7-Xb-Jc4" secondAttribute="leading" id="Bgv-DR-9FC"/>
-                                            <constraint firstItem="AqH-JY-vmB" firstAttribute="top" secondItem="dU7-Xb-Jc4" secondAttribute="top" id="Dua-uG-M0y"/>
-                                            <constraint firstAttribute="trailing" secondItem="AqH-JY-vmB" secondAttribute="trailing" id="M0D-uw-QKb"/>
-                                            <constraint firstAttribute="bottom" secondItem="AqH-JY-vmB" secondAttribute="bottom" id="eTt-Rw-E2E"/>
+                                            <constraint firstItem="AqH-JY-vmB" firstAttribute="centerY" secondItem="dU7-Xb-Jc4" secondAttribute="centerY" id="cno-R9-gUT"/>
+                                            <constraint firstItem="AqH-JY-vmB" firstAttribute="leading" secondItem="dU7-Xb-Jc4" secondAttribute="leadingMargin" constant="-8" id="esr-Wx-I98"/>
+                                            <constraint firstItem="AqH-JY-vmB" firstAttribute="centerX" secondItem="dU7-Xb-Jc4" secondAttribute="centerX" id="gzp-0z-737"/>
+                                            <constraint firstItem="AqH-JY-vmB" firstAttribute="top" secondItem="dU7-Xb-Jc4" secondAttribute="topMargin" constant="-8" id="hef-jq-fIj"/>
                                         </constraints>
                                         <size key="customSize" width="263" height="228"/>
                                     </collectionViewCell>
@@ -111,6 +138,12 @@
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Equ-l2-xZJ" firstAttribute="leading" secondItem="6SL-J8-8bj" secondAttribute="leading" id="AH1-eG-7ip"/>
+                            <constraint firstItem="Equ-l2-xZJ" firstAttribute="centerX" secondItem="aDf-Ex-7wk" secondAttribute="centerX" id="TXx-hF-eO1"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Equ-l2-xZJ" secondAttribute="bottom" constant="-34" id="YdT-qd-hog"/>
+                            <constraint firstItem="Equ-l2-xZJ" firstAttribute="top" secondItem="6SL-J8-8bj" secondAttribute="top" id="xxL-K5-t2h"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6SL-J8-8bj"/>
                     </view>
                     <navigationItem key="navigationItem" id="8i6-on-B6K"/>
@@ -148,13 +181,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="43V-iK-B87">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="43V-iK-B87">
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="43V-iK-B87" secondAttribute="bottom" constant="-34" id="SXi-jX-E2d"/>
+                            <constraint firstItem="43V-iK-B87" firstAttribute="top" secondItem="XPi-Gt-I4Z" secondAttribute="top" id="b9Q-HU-nXs"/>
+                            <constraint firstItem="43V-iK-B87" firstAttribute="centerX" secondItem="hdo-nb-aYv" secondAttribute="centerX" id="fii-F1-uRZ"/>
+                            <constraint firstItem="43V-iK-B87" firstAttribute="leading" secondItem="XPi-Gt-I4Z" secondAttribute="leading" id="qXl-wW-X99"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="XPi-Gt-I4Z"/>
                     </view>
                     <navigationItem key="navigationItem" id="4d1-dI-qhg"/>
@@ -183,4 +221,7 @@
             <point key="canvasLocation" x="1683" y="504"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="taboola_bg" width="375" height="667"/>
+    </resources>
 </document>
