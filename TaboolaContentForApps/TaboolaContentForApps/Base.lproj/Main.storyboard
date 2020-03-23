@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="Ue2-n1-gUg">
-                                <rect key="frame" x="173" y="328" width="68" height="240"/>
+                                <rect key="frame" x="173" y="363" width="68" height="170"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mds-p2-HHF">
                                         <rect key="frame" x="0.0" y="0.0" width="68" height="30"/>
@@ -32,15 +32,8 @@
                                             <segue destination="SpB-HN-A9k" kind="show" id="peA-Ux-XHC"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDI-Ek-NOX">
-                                        <rect key="frame" x="0.0" y="140" width="68" height="30"/>
-                                        <state key="normal" title="Web Tab"/>
-                                        <connections>
-                                            <segue destination="Npl-F6-nN6" kind="show" id="Okt-qz-8OR"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B2a-C1-3b4">
-                                        <rect key="frame" x="0.0" y="210" width="68" height="30"/>
+                                        <rect key="frame" x="0.0" y="140" width="68" height="30"/>
                                         <state key="normal" title="Web View"/>
                                         <connections>
                                             <segue destination="l7R-fu-cBg" kind="show" id="IXj-Gh-isn"/>
@@ -173,22 +166,6 @@
             </objects>
             <point key="canvasLocation" x="1682.608695652174" y="-180.13392857142856"/>
         </scene>
-        <!--WebTabViewController-->
-        <scene sceneID="OVF-ib-26P">
-            <objects>
-                <viewController id="Npl-F6-nN6" userLabel="WebTabViewController" customClass="WebTabViewController" customModule="TaboolaContentForApps" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="RB3-Qj-8hF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="Thc-Uq-LCg"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="4aa-dV-Ck5"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6fQ-rb-X54" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1684" y="469"/>
-        </scene>
         <!--WebVViewController-->
         <scene sceneID="09a-RT-L1P">
             <objects>
@@ -203,7 +180,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9SA-db-irj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1683" y="1144"/>
+            <point key="canvasLocation" x="1683" y="504"/>
         </scene>
     </scenes>
 </document>

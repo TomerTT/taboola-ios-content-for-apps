@@ -15,7 +15,6 @@
 		72044AE924289D9300426737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72044AE724289D9300426737 /* LaunchScreen.storyboard */; };
 		72044AF624289F8700426737 /* STDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044AF524289F8700426737 /* STDViewController.swift */; };
 		72044AF82428A55600426737 /* JSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044AF72428A55600426737 /* JSViewController.swift */; };
-		72044AFA2428A56900426737 /* WebTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044AF92428A56900426737 /* WebTabViewController.swift */; };
 		72044AFC2428A59400426737 /* WebVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044AFB2428A59400426737 /* WebVViewController.swift */; };
 		72044AFE2428A64E00426737 /* TaboolaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044AFD2428A64E00426737 /* TaboolaCollectionViewCell.swift */; };
 		72044B032428AB2100426737 /* JSSamplePage.html in Resources */ = {isa = PBXBuildFile; fileRef = 72044B022428AB2100426737 /* JSSamplePage.html */; };
@@ -32,7 +31,6 @@
 		72044AEA24289D9300426737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72044AF524289F8700426737 /* STDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STDViewController.swift; sourceTree = "<group>"; };
 		72044AF72428A55600426737 /* JSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSViewController.swift; sourceTree = "<group>"; };
-		72044AF92428A56900426737 /* WebTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebTabViewController.swift; sourceTree = "<group>"; };
 		72044AFB2428A59400426737 /* WebVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVViewController.swift; sourceTree = "<group>"; };
 		72044AFD2428A64E00426737 /* TaboolaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaboolaCollectionViewCell.swift; sourceTree = "<group>"; };
 		72044B022428AB2100426737 /* JSSamplePage.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = JSSamplePage.html; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 			children = (
 				72044AF024289DB300426737 /* SDK STD */,
 				72044AF224289DC400426737 /* SDK JS */,
-				72044AF324289DD400426737 /* Web Tab */,
 				72044AF424289DEC00426737 /* Web View */,
 				72044ADC24289D9200426737 /* AppDelegate.swift */,
 				72044ADE24289D9200426737 /* SceneDelegate.swift */,
@@ -104,14 +101,6 @@
 				72044B022428AB2100426737 /* JSSamplePage.html */,
 			);
 			path = "SDK JS";
-			sourceTree = "<group>";
-		};
-		72044AF324289DD400426737 /* Web Tab */ = {
-			isa = PBXGroup;
-			children = (
-				72044AF92428A56900426737 /* WebTabViewController.swift */,
-			);
-			path = "Web Tab";
 			sourceTree = "<group>";
 		};
 		72044AF424289DEC00426737 /* Web View */ = {
@@ -259,7 +248,6 @@
 				72044AF82428A55600426737 /* JSViewController.swift in Sources */,
 				72044AE124289D9200426737 /* ViewController.swift in Sources */,
 				72044AFE2428A64E00426737 /* TaboolaCollectionViewCell.swift in Sources */,
-				72044AFA2428A56900426737 /* WebTabViewController.swift in Sources */,
 				72044ADD24289D9200426737 /* AppDelegate.swift in Sources */,
 				72044ADF24289D9200426737 /* SceneDelegate.swift in Sources */,
 				72044AFC2428A59400426737 /* WebVViewController.swift in Sources */,
