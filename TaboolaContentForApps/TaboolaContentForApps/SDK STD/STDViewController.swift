@@ -62,7 +62,7 @@ class STDViewController: UIViewController{
 extension STDViewController: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 8
+        return 15
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -76,7 +76,7 @@ extension STDViewController: UICollectionViewDataSource, UICollectionViewDelegat
             let taboolaCell = collectionView.dequeueReusableCell(withReuseIdentifier: taboolaIdentifier, for: indexPath) as? TaboolaCollectionViewCell ?? TaboolaCollectionViewCell()
             taboolaCell.contentView.addSubview(taboolaWidget)
             return taboolaCell
-        case 7:
+        case 14:
             let taboolaCell = collectionView.dequeueReusableCell(withReuseIdentifier: taboolaIdentifier, for: indexPath) as? TaboolaCollectionViewCell ?? TaboolaCollectionViewCell()
             taboolaCell.contentView.addSubview(taboolaFeed)
             return taboolaCell
@@ -96,7 +96,7 @@ extension STDViewController: UICollectionViewDataSource, UICollectionViewDelegat
             else {
                 return CGSize(width: view.frame.size.width, height: 0)
             }
-        case 7:
+        case 14:
             return CGSize(width: view.frame.size.width, height: TaboolaView.widgetHeight())
         default:
             return CGSize(width: view.frame.size.width, height: 200)
