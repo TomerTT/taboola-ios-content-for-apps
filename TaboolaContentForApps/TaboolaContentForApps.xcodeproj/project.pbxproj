@@ -18,6 +18,7 @@
 		72044AFA2428A56900426737 /* WebTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044AF92428A56900426737 /* WebTabViewController.swift */; };
 		72044AFC2428A59400426737 /* WebVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044AFB2428A59400426737 /* WebVViewController.swift */; };
 		72044AFE2428A64E00426737 /* TaboolaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044AFD2428A64E00426737 /* TaboolaCollectionViewCell.swift */; };
+		72044B032428AB2100426737 /* JSSamplePage.html in Resources */ = {isa = PBXBuildFile; fileRef = 72044B022428AB2100426737 /* JSSamplePage.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		72044AF92428A56900426737 /* WebTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebTabViewController.swift; sourceTree = "<group>"; };
 		72044AFB2428A59400426737 /* WebVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVViewController.swift; sourceTree = "<group>"; };
 		72044AFD2428A64E00426737 /* TaboolaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaboolaCollectionViewCell.swift; sourceTree = "<group>"; };
+		72044B022428AB2100426737 /* JSSamplePage.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = JSSamplePage.html; sourceTree = "<group>"; };
 		8D2C18480E0E249501158B01 /* Pods_TaboolaContentForApps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaboolaContentForApps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92957E3A49F47AE481F7A570 /* Pods-TaboolaContentForApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaboolaContentForApps.debug.xcconfig"; path = "Target Support Files/Pods-TaboolaContentForApps/Pods-TaboolaContentForApps.debug.xcconfig"; sourceTree = "<group>"; };
 		FC1C0B1B9EC45A42E681E183 /* Pods-TaboolaContentForApps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaboolaContentForApps.release.xcconfig"; path = "Target Support Files/Pods-TaboolaContentForApps/Pods-TaboolaContentForApps.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				72044AF72428A55600426737 /* JSViewController.swift */,
+				72044B022428AB2100426737 /* JSSamplePage.html */,
 			);
 			path = "SDK JS";
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72044B032428AB2100426737 /* JSSamplePage.html in Resources */,
 				72044AE924289D9300426737 /* LaunchScreen.storyboard in Resources */,
 				72044AE624289D9300426737 /* Assets.xcassets in Resources */,
 				72044AE424289D9200426737 /* Main.storyboard in Resources */,

@@ -150,18 +150,28 @@
         <!--JSViewController-->
         <scene sceneID="Q3Z-AC-Iuw">
             <objects>
-                <viewController id="SpB-HN-A9k" userLabel="JSViewController" customClass="JSViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="44K-Ss-Akq">
+                <viewController id="SpB-HN-A9k" userLabel="JSViewController" customClass="JSViewController" customModule="TaboolaContentForApps" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hdo-nb-aYv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="sye-La-gSg"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="43V-iK-B87">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="XPi-Gt-I4Z"/>
                     </view>
                     <navigationItem key="navigationItem" id="4d1-dI-qhg"/>
+                    <connections>
+                        <outlet property="webViewContainer" destination="43V-iK-B87" id="cW4-XW-3Ee"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AYc-2w-JA2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1683" y="-180"/>
+            <point key="canvasLocation" x="1682.608695652174" y="-180.13392857142856"/>
         </scene>
         <!--WebTabViewController-->
         <scene sceneID="OVF-ib-26P">
