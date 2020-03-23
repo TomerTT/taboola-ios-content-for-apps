@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		72044AB424289CFC00426737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044AB324289CFC00426737 /* AppDelegate.swift */; };
-		72044AB624289CFC00426737 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044AB524289CFC00426737 /* SceneDelegate.swift */; };
-		72044AB824289CFC00426737 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044AB724289CFC00426737 /* ViewController.swift */; };
-		72044ABB24289CFC00426737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72044AB924289CFC00426737 /* Main.storyboard */; };
-		72044ABD24289CFC00426737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72044ABC24289CFC00426737 /* Assets.xcassets */; };
-		72044AC024289CFC00426737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72044ABE24289CFC00426737 /* LaunchScreen.storyboard */; };
+		72044ADD24289D9200426737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044ADC24289D9200426737 /* AppDelegate.swift */; };
+		72044ADF24289D9200426737 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044ADE24289D9200426737 /* SceneDelegate.swift */; };
+		72044AE124289D9200426737 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72044AE024289D9200426737 /* ViewController.swift */; };
+		72044AE424289D9200426737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72044AE224289D9200426737 /* Main.storyboard */; };
+		72044AE624289D9300426737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72044AE524289D9300426737 /* Assets.xcassets */; };
+		72044AE924289D9300426737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72044AE724289D9300426737 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		72044AB024289CFC00426737 /* TaboolaContentForApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaboolaContentForApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		72044AB324289CFC00426737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72044AB524289CFC00426737 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		72044AB724289CFC00426737 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		72044ABA24289CFC00426737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		72044ABC24289CFC00426737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		72044ABF24289CFC00426737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		72044AC124289CFC00426737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72044AD924289D9200426737 /* TaboolaContentForApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaboolaContentForApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72044ADC24289D9200426737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72044ADE24289D9200426737 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		72044AE024289D9200426737 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72044AE324289D9200426737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72044AE524289D9300426737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72044AE824289D9300426737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72044AEA24289D9300426737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		72044AAD24289CFC00426737 /* Frameworks */ = {
+		72044AD624289D9200426737 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,32 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		72044AA724289CFC00426737 = {
+		72044AD024289D9200426737 = {
 			isa = PBXGroup;
 			children = (
-				72044AB224289CFC00426737 /* TaboolaContentForApps */,
-				72044AB124289CFC00426737 /* Products */,
+				72044ADB24289D9200426737 /* TaboolaContentForApps */,
+				72044ADA24289D9200426737 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		72044AB124289CFC00426737 /* Products */ = {
+		72044ADA24289D9200426737 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				72044AB024289CFC00426737 /* TaboolaContentForApps.app */,
+				72044AD924289D9200426737 /* TaboolaContentForApps.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		72044AB224289CFC00426737 /* TaboolaContentForApps */ = {
+		72044ADB24289D9200426737 /* TaboolaContentForApps */ = {
 			isa = PBXGroup;
 			children = (
-				72044AB324289CFC00426737 /* AppDelegate.swift */,
-				72044AB524289CFC00426737 /* SceneDelegate.swift */,
-				72044AB724289CFC00426737 /* ViewController.swift */,
-				72044AB924289CFC00426737 /* Main.storyboard */,
-				72044ABC24289CFC00426737 /* Assets.xcassets */,
-				72044ABE24289CFC00426737 /* LaunchScreen.storyboard */,
-				72044AC124289CFC00426737 /* Info.plist */,
+				72044ADC24289D9200426737 /* AppDelegate.swift */,
+				72044ADE24289D9200426737 /* SceneDelegate.swift */,
+				72044AE024289D9200426737 /* ViewController.swift */,
+				72044AE224289D9200426737 /* Main.storyboard */,
+				72044AE524289D9300426737 /* Assets.xcassets */,
+				72044AE724289D9300426737 /* LaunchScreen.storyboard */,
+				72044AEA24289D9300426737 /* Info.plist */,
 			);
 			path = TaboolaContentForApps;
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		72044AAF24289CFC00426737 /* TaboolaContentForApps */ = {
+		72044AD824289D9200426737 /* TaboolaContentForApps */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72044AC424289CFC00426737 /* Build configuration list for PBXNativeTarget "TaboolaContentForApps" */;
+			buildConfigurationList = 72044AED24289D9300426737 /* Build configuration list for PBXNativeTarget "TaboolaContentForApps" */;
 			buildPhases = (
-				72044AAC24289CFC00426737 /* Sources */,
-				72044AAD24289CFC00426737 /* Frameworks */,
-				72044AAE24289CFC00426737 /* Resources */,
+				72044AD524289D9200426737 /* Sources */,
+				72044AD624289D9200426737 /* Frameworks */,
+				72044AD724289D9200426737 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = TaboolaContentForApps;
 			productName = TaboolaContentForApps;
-			productReference = 72044AB024289CFC00426737 /* TaboolaContentForApps.app */;
+			productReference = 72044AD924289D9200426737 /* TaboolaContentForApps.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		72044AA824289CFC00426737 /* Project object */ = {
+		72044AD124289D9200426737 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Liad Elidan";
 				TargetAttributes = {
-					72044AAF24289CFC00426737 = {
+					72044AD824289D9200426737 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 72044AAB24289CFC00426737 /* Build configuration list for PBXProject "TaboolaContentForApps" */;
+			buildConfigurationList = 72044AD424289D9200426737 /* Build configuration list for PBXProject "TaboolaContentForApps" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 72044AA724289CFC00426737;
-			productRefGroup = 72044AB124289CFC00426737 /* Products */;
+			mainGroup = 72044AD024289D9200426737;
+			productRefGroup = 72044ADA24289D9200426737 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				72044AAF24289CFC00426737 /* TaboolaContentForApps */,
+				72044AD824289D9200426737 /* TaboolaContentForApps */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		72044AAE24289CFC00426737 /* Resources */ = {
+		72044AD724289D9200426737 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72044AC024289CFC00426737 /* LaunchScreen.storyboard in Resources */,
-				72044ABD24289CFC00426737 /* Assets.xcassets in Resources */,
-				72044ABB24289CFC00426737 /* Main.storyboard in Resources */,
+				72044AE924289D9300426737 /* LaunchScreen.storyboard in Resources */,
+				72044AE624289D9300426737 /* Assets.xcassets in Resources */,
+				72044AE424289D9200426737 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		72044AAC24289CFC00426737 /* Sources */ = {
+		72044AD524289D9200426737 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72044AB824289CFC00426737 /* ViewController.swift in Sources */,
-				72044AB424289CFC00426737 /* AppDelegate.swift in Sources */,
-				72044AB624289CFC00426737 /* SceneDelegate.swift in Sources */,
+				72044AE124289D9200426737 /* ViewController.swift in Sources */,
+				72044ADD24289D9200426737 /* AppDelegate.swift in Sources */,
+				72044ADF24289D9200426737 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		72044AB924289CFC00426737 /* Main.storyboard */ = {
+		72044AE224289D9200426737 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				72044ABA24289CFC00426737 /* Base */,
+				72044AE324289D9200426737 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		72044ABE24289CFC00426737 /* LaunchScreen.storyboard */ = {
+		72044AE724289D9300426737 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				72044ABF24289CFC00426737 /* Base */,
+				72044AE824289D9300426737 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		72044AC224289CFC00426737 /* Debug */ = {
+		72044AEB24289D9300426737 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		72044AC324289CFC00426737 /* Release */ = {
+		72044AEC24289D9300426737 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +280,7 @@
 			};
 			name = Release;
 		};
-		72044AC524289CFC00426737 /* Debug */ = {
+		72044AEE24289D9300426737 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -298,7 +298,7 @@
 			};
 			name = Debug;
 		};
-		72044AC624289CFC00426737 /* Release */ = {
+		72044AEF24289D9300426737 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -319,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		72044AAB24289CFC00426737 /* Build configuration list for PBXProject "TaboolaContentForApps" */ = {
+		72044AD424289D9200426737 /* Build configuration list for PBXProject "TaboolaContentForApps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72044AC224289CFC00426737 /* Debug */,
-				72044AC324289CFC00426737 /* Release */,
+				72044AEB24289D9300426737 /* Debug */,
+				72044AEC24289D9300426737 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72044AC424289CFC00426737 /* Build configuration list for PBXNativeTarget "TaboolaContentForApps" */ = {
+		72044AED24289D9300426737 /* Build configuration list for PBXNativeTarget "TaboolaContentForApps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72044AC524289CFC00426737 /* Debug */,
-				72044AC624289CFC00426737 /* Release */,
+				72044AEE24289D9300426737 /* Debug */,
+				72044AEF24289D9300426737 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 72044AA824289CFC00426737 /* Project object */;
+	rootObject = 72044AD124289D9200426737 /* Project object */;
 }
